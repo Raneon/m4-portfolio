@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="/components/header.css" />
+    <script defer src="/components/header.js"></script>
+    <link rel="stylesheet" href="/components/footer.css" />
+    <script defer src="/components/footer.js"></script>
+    <link rel="stylesheet" href="/components/contact-form.css" />
+    <script defer src="/components/contact-form.js"></script>
+    <script defer src="./scripts/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div></div>
+    <header class="header">
+      <h2 class="title--white">Hola</h2>
+      <h3><class class="subtitle--white">Soy Matias Parodi</class></h3>
+    </header>
+    <section class="section-my-description">
+      <img src="./imgs/retrato.png" alt="" class="portrait" />
+      <div class="my-description">
+        <h2 class="my-description__title">Quien soy</h2>
+        <p class="my-description__text">
+          Soy Matias Parodi, ingeniero en petroleo basado en Argentina. Luego de
+          varios años en una reconocida multinacional del rubro Oil&Gas, y desde
+          principios de 2021, comencé mi transformación hacia el desarrollo de
+          software.
+        </p>
+      </div>
+    </section>
+    <section class="services">
+      <h2 class="services__title">Mis servicios</h2>
+      <div class="services__container"></div>
+    </section>
+    <section class="contact-form-container"></section>
+  </body>
+  <template id="template-item">
+    <div class="services__item">
+      <div class="services__img-container">
+        <img class="services__img" src="./imgs/monitor.png" alt="" />
+      </div>
+      <div class="services__item-title"></div>
+      <p class="services__item-text"></p>
+    </div>
+  </template>
+</html>

@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.contact-form__container {
+  padding-top: 171px;
+  padding-bottom: 190px;
+  background: black;
+}
+@media (min-width: 769px) {
+  .contact-form__container {
+    height: 902px;
+    padding-top: 10rem;
+    background: linear-gradient(90deg, #408195, #00d287);
+  }
+}
