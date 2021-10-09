@@ -7,7 +7,7 @@ body {
 }
 .header {
   height: 615px;
-  background-image: url(../imgs/background.jpg);
+  background-image: url("../imgs/background.jpg");
   background-position: 00px;
   border: solid 0.001px white;
   text-align: center;
