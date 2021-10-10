@@ -2,8 +2,10 @@
 
 https://raneon.github.io/m4-portfolio/
 
-This project is a personal portfolio
+This project is a personal portfolio in the context of apx.school full stack developemnt course 
 
 -Reponsive design
 -Vanilla JS & CSS components
--Fetch function to retrieve CMS data from contenful & to perform HTTP POST request to send contact form data
+-Use of Fetch function to retreive data from CMS API
+-Use of template tag to add any number of desired items from CMS 
+-Contact form with HTTP POST request to send contact form data
