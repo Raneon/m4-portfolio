@@ -34,9 +34,12 @@ function sendForm() {
   var form = document.querySelector(".contact-form");
   form.addEventListener("submit", (event) => {
     event.preventDefault();
+    alert(`Datos enviados! Muchas gracias. M.P :)`);
     formData = new FormData(event.target);
     data = Object.fromEntries(formData.entries());
+    form.reset();
     delete data.name;
+
     fetch("https://apx-api.vercel.app/api/utils/dwf", {
       method: "POST",
       headers: { "content-type": "application/json" },
