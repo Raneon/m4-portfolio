@@ -2,7 +2,7 @@
 
 https://raneon.github.io/m4-portfolio/
 
-This project is a personal portfolio in the context of apx.school full stack developemnt course 
+This project is a personal portfolio in the context of apx.school full stack development course 
 
 -Reponsive design
 -Vanilla JS & CSS components
