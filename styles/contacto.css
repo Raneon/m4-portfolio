@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  margin: 0;
+}
 .contact-form__container {
   padding-top: 171px;
   padding-bottom: 190px;
