@@ -1,6 +1,6 @@
 # m4-portfolio
 
-https://raneon.github.io/m4-portfolio/
+https://parodimatias.github.io/m4-portfolio/
 
 This project is a personal portfolio in the context of apx.school full stack development course 
 
